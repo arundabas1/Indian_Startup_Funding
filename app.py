@@ -5,7 +5,7 @@ import plotly.express as px
 
 st.set_page_config(layout='wide',page_title='Startup Funding Analysis')
 
-df = pd.read_csv('cleaned_startup_funding.csv')
+df = pd.read_csv('clean_startup_funding.csv')
 
 
 def load_overview():
